@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{1593c7a9-126b-4d8b-a3e9-f326a90dddab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES">
+      <UniqueIdentifier>{c7fa1faf-3471-4844-8f5e-2f6629994eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\MESH">
+      <UniqueIdentifier>{a1ffb4a2-0b48-4648-a793-9a908a589f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\SHADER">
+      <UniqueIdentifier>{d146b034-e6cd-4584-99f5-acc0c2aa4dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\SHADER\SUB">
+      <UniqueIdentifier>{7a68e347-6263-439a-b939-313bab0729d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECT">
+      <UniqueIdentifier>{da307f4e-a16e-4b60-b2b3-63762c47010c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BASE">
+      <UniqueIdentifier>{25407a04-b275-4874-9727-561000f1e81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM">
+      <UniqueIdentifier>{1cabb599-2624-47dc-9555-32ee5f61f4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\IMAGE">
+      <UniqueIdentifier>{464258cf-80e8-4a03-adfe-e812b2f054bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\MAIN">
+      <UniqueIdentifier>{ee22e2af-2ab3-41fd-b4bf-5b73e68b5ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGR">
+      <UniqueIdentifier>{97879ee3-8a64-4626-b0d0-74e14fe7ae37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\RENDER">
+      <UniqueIdentifier>{1fe4938e-6b0a-4ad3-ad66-ddb07eedd4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\RENDERSUB">
+      <UniqueIdentifier>{64671709-1b11-4d47-a45b-f161fad77e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\COL">
+      <UniqueIdentifier>{ee74698e-8c3c-4872-bbdd-4fef8954b103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\COL\2D">
+      <UniqueIdentifier>{f5685e7c-d647-45bb-8413-5cb4a2c46b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\COL\3D">
+      <UniqueIdentifier>{3c9e5290-6894-4cc5-a74a-46159f8139b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\FONT">
+      <UniqueIdentifier>{d0f7ebd0-499b-4bed-8553-bf39f30a25e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\HSOUND">
+      <UniqueIdentifier>{4c61ac7c-7117-4f70-979c-1a19915d44bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\RENDERTARGET">
+      <UniqueIdentifier>{ddec0b28-cda8-446f-a818-326fc6e93761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\FBX">
+      <UniqueIdentifier>{39f9035e-95cd-41d7-9cf4-80a22cbd75fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GAMEWIN__">
+      <UniqueIdentifier>{259d227c-87a9-4369-81ab-1a390b934fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIDEO">
+      <UniqueIdentifier>{5b3b05c9-51fc-4720-9637-b5809d14aade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\MAIN\Sub">
+      <UniqueIdentifier>{4588fe90-a387-4037-bfba-ce8035d91ec0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RENDERPATH.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>VIDEO</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticFbxRender.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomFilter.cpp">
+      <Filter>COM\MAIN\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>__GAMEWIN__</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDebug.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDevice.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDevice_Define.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateBase.cpp">
+      <Filter>BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingRect.cpp">
+      <Filter>COM\COL\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingCircle.cpp">
+      <Filter>COM\COL\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>COM\COL\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>COM\COL\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>COM\COL</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimaion.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamera.cpp">
+      <Filter>COM\MAIN\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>COM\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxAnimation.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>COM\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>COM\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>COM\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>COM\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="SubTransform.cpp">
+      <Filter>COM</Filter>
+    </ClCompile>
+    <ClCompile Include="RectRender.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRender.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRender.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>COM\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>COM</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>MGR</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>MGR</Filter>
+    </ClCompile>
+    <ClCompile Include="Fbx.cpp">
+      <Filter>RES\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>RES\HSOUND</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineFont.cpp">
+      <Filter>RES\FONT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>RES\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>RES\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>RES\MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>RES\MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DBuffer.cpp">
+      <Filter>RES</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>RES\MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>RES</Filter>
+    </ClCompile>
+    <ClCompile Include="Blend.cpp">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplerState.cpp">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilBuffer.cpp">
+      <Filter>RES\RENDERTARGET</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiRenderTarget.cpp">
+      <Filter>RES\RENDERTARGET</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>RES\RENDERTARGET</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>RES\SHADER\SUB</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>RES\SHADER\SUB</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>RES\SHADER\SUB</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>RES\SHADER</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RENDERPATH.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>VIDEO</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFbxRender.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomFilter.h">
+      <Filter>COM\MAIN\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>__GAMEWIN__</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDebug.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDevice.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMeshData.h">
+      <Filter>BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateBase.h">
+      <Filter>BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingRect.h">
+      <Filter>COM\COL\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingCircle.h">
+      <Filter>COM\COL\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>COM\COL\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>COM\COL\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>COM\COL</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimaion.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamera.h">
+      <Filter>COM\MAIN\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>COM\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxAnimation.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>COM\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>COM\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>COM\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHeader.h">
+      <Filter>COM\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>COM\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="SubTransform.h">
+      <Filter>COM</Filter>
+    </ClInclude>
+    <ClInclude Include="RectRender.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRender.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRender.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>COM\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>COM</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>MGR</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>MGR</Filter>
+    </ClInclude>
+    <ClInclude Include="Fbx.h">
+      <Filter>RES\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>RES\HSOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineFont.h">
+      <Filter>RES\FONT</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>RES\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>RES\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>RES\MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>RES\MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DBuffer.h">
+      <Filter>RES</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>RES\MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>RES</Filter>
+    </ClInclude>
+    <ClInclude Include="Blend.h">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerState.h">
+      <Filter>RES\RENDERSUB</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilBuffer.h">
+      <Filter>RES\RENDERTARGET</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiRenderTarget.h">
+      <Filter>RES\RENDERTARGET</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>RES\RENDERTARGET</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>RES\SHADER\SUB</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>RES\SHADER\SUB</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>RES\SHADER\SUB</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>RES\SHADER</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceBuffer.h" />
+  </ItemGroup>
+</Project>

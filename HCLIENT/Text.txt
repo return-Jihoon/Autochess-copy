@@ -1,0 +1,253 @@
+
+
+//	HINPUT::CreateKey(L"CamPosX+", VK_RIGHT);
+//	HINPUT::CreateKey(L"CamPosY+", VK_UP);
+//	HINPUT::CreateKey(L"CamPosZ+", '[');
+//	HINPUT::CreateKey(L"CamPosX-", VK_LEFT);
+//	HINPUT::CreateKey(L"CamPosY-", VK_DOWN);
+//	HINPUT::CreateKey(L"CamPosZ-", ']');
+//
+//	HINPUT::CreateKey(L"CamRotX+", VK_NUMPAD8);
+//	HINPUT::CreateKey(L"CamRotY+", VK_NUMPAD4);
+//	HINPUT::CreateKey(L"CamRotZ+", VK_NUMPAD7);
+//	HINPUT::CreateKey(L"CamRotX-", VK_NUMPAD5);
+//	HINPUT::CreateKey(L"CamRotY-", VK_NUMPAD6);
+//	HINPUT::CreateKey(L"CamRotZ-", VK_NUMPAD9);
+//
+//	HINPUT::CreateKey(L"ScaleX+", 'I');
+//	HINPUT::CreateKey(L"ScaleY+", 'O');
+//	HINPUT::CreateKey(L"ScaleZ+", 'P');
+//	HINPUT::CreateKey(L"ScaleX-", 'J');
+//	HINPUT::CreateKey(L"ScaleY-", 'K');
+//	HINPUT::CreateKey(L"ScaleZ-", 'L');
+//
+//	HINPUT::CreateKey(L"MoveX+", 'D');
+//	HINPUT::CreateKey(L"MoveY+", 'W');
+//	HINPUT::CreateKey(L"MoveZ+", 'Q');
+//	HINPUT::CreateKey(L"MoveX-", 'A');
+//	HINPUT::CreateKey(L"MoveY-", 'S');
+//	HINPUT::CreateKey(L"MoveZ-", 'E');
+//
+//	HINPUT::CreateKey(L"RotX+", 'T');
+//	HINPUT::CreateKey(L"RotY+", 'Y');
+//	HINPUT::CreateKey(L"RotZ+", 'U');
+//	HINPUT::CreateKey(L"RotX-", 'F');
+//	HINPUT::CreateKey(L"RotY-", 'G');
+//	HINPUT::CreateKey(L"RotZ-", 'H');
+//
+//	HINPUT::CreateKey(L"PatRot+", 'N');
+//	HINPUT::CreateKey(L"PatRot-", 'M');
+//
+//	
+
+
+
+//	HTIME::Update();
+//	HINPUT::Update();
+//
+//	memcpy_s(RenderHArr, sizeof(HVEC4) * 4 * 6, HArr, sizeof(HVEC4) * 4 * 6);
+//
+//#pragma region CAMPOS
+//	if (true == HINPUT::Press(L"CamPosX+"))
+//	{
+//		CamPos.x += ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamPosY+"))
+//	{
+//		CamPos.y += ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamPosZ+"))
+//	{
+//		CamPos.z += ScaleSpeed * HTIME::DeltaTime();
+//	}
+//
+//	if (true == HINPUT::Press(L"CamPosX-"))
+//	{
+//		CamPos.x -= ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamPosY-"))
+//	{
+//		CamPos.y -= ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamPosZ-"))
+//	{
+//		CamPos.z -= ScaleSpeed * HTIME::DeltaTime();
+//	}
+//#pragma endregion
+//
+//#pragma region CAMPOS
+//	if (true == HINPUT::Press(L"CamRotX+"))
+//	{
+//		CamRot.x += RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamRotY+"))
+//	{
+//		CamRot.y += RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamRotZ+"))
+//	{
+//		CamRot.z += RotSpeed * HTIME::DeltaTime();
+//	}
+//
+//	if (true == HINPUT::Press(L"CamRotX-"))
+//	{
+//		CamRot.x -= RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamRotY-"))
+//	{
+//		CamRot.y -= RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"CamRotZ-"))
+//	{
+//		CamRot.z -= RotSpeed * HTIME::DeltaTime();
+//	}
+//#pragma endregion
+//
+//
+//#pragma region SCALE
+//	if (true == HINPUT::Press(L"ScaleX+"))
+//	{
+//		Scale.x += ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"ScaleY+"))
+//	{
+//		Scale.y += ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"ScaleZ+"))
+//	{
+//		Scale.z += ScaleSpeed * HTIME::DeltaTime();
+//	}
+//
+//	if (true == HINPUT::Press(L"ScaleX-"))
+//	{
+//		Scale.x -= ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"ScaleY-"))
+//	{
+//		Scale.y -= ScaleSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"ScaleZ-"))
+//	{
+//		Scale.z -= ScaleSpeed * HTIME::DeltaTime();
+//	}
+//#pragma endregion
+//#pragma region MOVE
+//	if (true == HINPUT::Press(L"MoveX+"))
+//	{
+//		Pos.x += MoveSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"MoveY+"))
+//	{
+//		Pos.y += MoveSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"MoveZ+"))
+//	{
+//		Pos.z += MoveSpeed * HTIME::DeltaTime();
+//	}
+//
+//	if (true == HINPUT::Press(L"MoveX-"))
+//	{
+//		Pos.x -= MoveSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"MoveY-"))
+//	{
+//		Pos.y -= MoveSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"MoveZ-"))
+//	{
+//		Pos.z -= MoveSpeed * HTIME::DeltaTime();
+//	}
+//#pragma endregion
+//
+//#pragma region ROT
+//	if (true == HINPUT::Press(L"RotX+"))
+//	{
+//		Rot.x += RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"RotY+"))
+//	{
+//		Rot.y -= RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"RotZ+"))
+//	{
+//		Rot.z += RotSpeed * HTIME::DeltaTime();
+//	}
+//
+//	if (true == HINPUT::Press(L"RotX-"))
+//	{
+//		Rot.x -= RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"RotY-"))
+//	{
+//		Rot.y += RotSpeed * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"RotZ-"))
+//	{
+//		Rot.z -= RotSpeed * HTIME::DeltaTime();
+//	}
+//#pragma 
+//	if (true == HINPUT::Press(L"PatRot+"))
+//	{
+//		PatAngle += 360.0f * HTIME::DeltaTime();
+//	}
+//	if (true == HINPUT::Press(L"PatRot-"))
+//	{
+//		PatAngle -= 360.0f * HTIME::DeltaTime();
+//	}
+//
+//	// 단위행렬    크자이공부    뷰행렬         투영행렬        뷰포트공간
+//	// 로컬    ->  월드       -> 뷰스페이스  -> 투영스페이스 -> 2D뷰포트
+//
+
+//
+//	for (size_t i = 0; i < 6; i++)
+//	{
+//		for (size_t j = 0; j < 4; j++)
+//		{
+//			RenderHArr[i][j] = MATW * RenderHArr[i][j];
+//		}
+//	}
+//
+//	// 여기까지는 비율에 대한 값이기 때문에.
+//	// -1~ 1 0~1사이의 값이 아닐것이다.
+//	// w로 갑자기 다 나눈다.
+//	// 그래서 -1~1공간에 들어가게 된다.
+//	for (size_t i = 0; i < 6; i++)
+//	{
+//		for (size_t j = 0; j < 4; j++)
+//		{
+//			float ViewZ = RenderHArr[i][j].w;
+//			RenderHArr[i][j].x /= ViewZ;
+//			RenderHArr[i][j].y /= ViewZ;
+//			RenderHArr[i][j].z /= ViewZ;
+//			RenderHArr[i][j].w = 1.0f;
+//		}
+//	}
+//
+//	for (size_t i = 0; i < 6; i++)
+//	{
+//		for (size_t j = 0; j < 4; j++)
+//		{
+//			RenderHArr[i][j] = VIEWPORTMAT * RenderHArr[i][j];
+//		}
+//	}
+//
+//	POINT Arr[6][4];
+//	for (size_t i = 0; i < 6; i++)
+//	{
+//		for (size_t j = 0; j < 4; j++)
+//		{
+//			Arr[i][j] = RenderHArr[i][j].ConvertPOINT();
+//		}
+//	}
+//
+//	for (size_t i = 0; i < 6; i++)
+//	{
+//		Polygon(MainDc, Arr[i], 4);
+//	}
+//
+//	//PatDir.DToDir(PatAngle);
+//	//PatDir *= 100.0f;
+//	//PatDir += Pos;
+//	// Rectangle(MainDc, PatDir.x - 10, PatDir.y - 10, PatDir.x + 10, PatDir.y + 10);
+//	
